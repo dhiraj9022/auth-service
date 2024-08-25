@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class BeanConfig {
 
-    private final String frontendUrl = "http://example.com";
+    private final String frontendUrl = "http://test.com";
 
     @Bean
     public RestTemplate restTemplate() {
